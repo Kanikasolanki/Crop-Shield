@@ -1,0 +1,203 @@
+@charset "ISO-8859-1";
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+.headingback{
+    background-color: darkgreen;
+    margin:0%;
+    padding: 2%;
+    height: 100px;
+    position: sticky;
+}
+.heading{
+    color: white;
+    font-weight: bolder;
+    font-size: 100px;
+    text-align: center;
+    margin-top: 0%;
+    letter-spacing: 2%;
+}
+.logo{
+    float: left;
+    border-radius: 50%;
+}
+.navbar{
+    background-color:rgb(173, 231, 173);
+    height: 29px;
+    position: sticky;
+    padding: 1%;
+}
+.menu{
+    text-decoration: none;
+    font-size: medium;
+    font-weight: bold;
+    padding: 1%;
+    color: black;
+}
+.menur{
+    float: right;
+    padding-right: 1%;
+    padding-left: 1%;
+    text-decoration: none;
+    color: black;
+    font-size: medium;
+    font-weight: bold;
+}
+.menu:hover{
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.menur:hover{
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.background-image{
+    -webkit-clip-path: polygon(15% 0, 100% 0, 100% 100%, 15% 100%, 0% 50%);
+    clip-path: polygon(15% 0, 100% 0, 100% 100%, 15% 100%, 0% 50%);
+    float: right;
+    height: 400px;
+    width: 50%;
+    background-size: cover;
+}
+.font{
+    font-family: 'Lugrasimo', cursive;
+    float: left;
+    font-weight: bold;
+    font-size: 50px;
+    width: 35%;
+    padding: 6%;
+    color: darkgreen;
+}
+.main{
+    height: 400px;
+    background-color: beige;
+}
+.space{
+    width: 100%;
+    font-family: 'Bungee Spice', cursive;
+    font-family: 'Lugrasimo', cursive;
+    text-align: center;
+    font-weight: bolder;
+    color: black;
+    font-size: 40px;
+}
+.images{
+    border-radius: 2px;
+}
+.icon{
+    border-radius: 200px;
+}
+.image{
+    padding: 0 2%;
+   
+
+}
+.image-sec{
+    display: flex;
+    padding:20px 10px  ;
+}
+#about{
+    padding: 2% 5%;
+}
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.container {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.393);
+    width: 400px; 
+    margin: 50px auto; 
+}
+
+h2 {
+    text-align: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input,select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+select {
+    width: 100%;
+}
+
+button {
+    margin-top: 20px;
+    padding: 12px;
+    background-color: green;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+.container2 {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.faq {
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.question {
+    background-color: #f0f0f0;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.answer {
+    
+    padding: 10px;
+}
+
+.answer.show {
+    display: block;
+    background-color: #ffffff;
+}
+.hey{
+	width: 57%;
+    margin-top: 0%;
+    padding: 2%;
+    float: right;
+}
+.Account{
+	margin-top: 0%;
+	padding: 2%;
+	float: right;
+}
+.butono{
+	float: right;
+	margin-top: 0%;
+}

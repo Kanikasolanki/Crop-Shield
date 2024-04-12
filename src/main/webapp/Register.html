@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Register</h2>
+        <form id="registrationForm" action="RegisterServlet" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email Id:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="usernmae">UserName:</label>
+            <input type="username" id="username" name="username" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="submit">Register</button>
+            <label id="l" class="l" name="l" ></label>
+        </form>
+    </div>
+</body>
+</html>

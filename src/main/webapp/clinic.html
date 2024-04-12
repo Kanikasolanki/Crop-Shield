@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PLANT DISEASE </title>
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+ 	<center>
+    <h1>CropShield</h1>
+    <p>Built for Agriculture(Tensorflow, Tensorflow.js, Python, Javascript, HTML5)</p>
+    <hr>
+
+
+    <div class="upload-btn-wrapper">
+        <button class="btn upload-file font-weight-500">
+            <span class="upload-btn">
+                <i class="material-icons d-block font-50 pb-2">cloud_upload</i>
+                <p id="choose-text-1">Choose Image of Crop leaf</p>
+            </span>
+            <span class="upload-select-button" id="blankFile-1">
+                *Supports .png, .jpg, .jpeg, .jfif
+            </span>
+            <span class="success-1">
+                <i class="material-icons text-success">check</i>
+            </span>
+        </button>
+        <input type="file" name="uploadImage" id="uploadImage">
+    </div>
+
+
+    <div class="row">
+        <div class="box">
+            <img src="" alt="" id="image" width="224" height="224">
+        </div>
+
+        <div class="box box-result">
+            <div class="init_status"></div>
+            <div>
+                <h2>Your Plant is infected with :- <span class="pred_class"></span></h2>
+                
+            </div>
+            <div class="accuracy">
+                <div class="progress" id="progress">
+                    <div class="inner">
+                      
+                    </div>
+                  </div>
+
+            </div>
+            <p style="padding : 10px;"> CONFIDENCE : <b><span class="confidence"></span></b> %</p>
+        </div>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tensorflow/2.0.1/tf.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/progressbar.js/1.0.1/progressbar.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
